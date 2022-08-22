@@ -1,0 +1,373 @@
+body{
+  background-color: #f4f4f4;
+  color: #555;
+  font-family: "Metal Mania";
+  font-size: 16px;
+  line-height: 1.6em;
+  margin: 0;
+}
+
+.container{
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+  padding-left: 20px;
+  padding-top: 7px;
+  font-family:"Metal Mania";
+}
+
+.container-form{
+  text-align: center;
+}
+
+#navbar .container :hover{
+  color: black;
+}
+
+
+.qoute{
+  color: black;
+  text-align: center;
+  font-style: italic;
+
+}
+
+#main-header{
+  background-color: coral;
+  color: white ;
+}
+
+#navbar{
+  background-color: #333;
+  color: white;
+}
+
+#navbar ul{
+  padding: 0;
+  list-style: none;
+}
+
+#navbar li{
+  display: inline;
+}
+
+#navbar a{
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+  padding-right: 15px;
+}
+
+#showcase{
+  background-image: url(/assert/images/laptop-on-bed.jpg);
+  background-position: center right;
+  min-height: 300px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+#showcase h1{
+  color: black;
+  font-size: 50px;
+  line-height: 1.6em;
+  padding-top: 30px;
+}
+
+#main{
+  float: left;
+  padding: 0;
+  box-sizing: border-box;
+  width: 70%;
+}
+
+#sidebar{
+  float: right;
+  width: 30%;
+  background: #333;
+  color: white;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+
+.button{
+  background-color: #333;
+  color: white;
+  height: 2em;
+}
+
+.button:hover{
+  background-color: coral;
+  color: white;
+}
+
+#pages{
+  background-color: coral;
+  color: white;
+  padding: 1px;
+  padding-left: 10px;
+  margin-top: 100px;
+  
+}
+
+
+.media-page{
+ display: flex; 
+ align-items: center;
+}
+
+.media-page ul{
+  flex-grow: 1;
+  text-align: end;
+}
+
+.footer-nav li{
+  padding: 0 .5em;
+}
+
+.footer-nav img{
+  width: 30px;
+  height: 30px;
+}
+
+
+.main-footer{
+  background: #333;
+  color: white;
+  text-align: center;
+  padding: 3px;
+}
+
+.map-container{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+h1{
+  color:#333;
+  margin-bottom: 60px;
+}
+
+iframe{
+  width: 80%;
+  height: 500px;
+  filter: invert(100%);
+}
+
+.contact-ace{
+  text-align: center;
+  color: black;
+  font-size: 30px;
+}
+
+.contact-main-footer{
+  background: #333;
+  color: white;
+  text-align: center;
+  padding: 3px;
+  /* margin-top: 100px; */
+}
+
+@media(max-width:600px){
+  #main{
+    width: 100%;
+    float: none;
+  }
+
+  #sidebar{
+    width: 100%;
+    float: none;
+  }
+}
+
+.about-me{
+  text-align: center;
+  font-family: "Metal Mania";
+  color: black;
+  font-size: 50px;
+}
+
+.about-me-image{
+  float: left;
+  height: 200px;
+  width: 200px;
+  margin: 15px;
+  border-radius: 50%
+}
+
+.portfolio-welcome-page{
+background-image: url(/assert/images/laptop-on-bed.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+width: 100%;
+height: 80rem;
+color: black;
+}
+
+.container{
+ width: auto;
+}
+
+.header{
+  color: black;
+}
+
+.nav{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  list-style: none;
+  font-size: 30px;
+  
+  
+}
+
+main{
+  text-align: center;
+  margin-top: 10%;
+}
+
+.qoute{
+  /* width: 20%; */
+  justify-content: center;
+  text-align: center;
+  font-family:Verdana, Geneva, Tahoma, sans-serif ;
+}
+
+.contact-me{
+  text-align: center;
+  font-family: "Metal Mania";
+  color: black;
+  
+}
+
+.logo{
+  color: black;
+  font-family: 'Faster One';font-size: 22px;
+  font-size: 3em;
+  font-weight: bold;
+  font-style: italic;
+  text-shadow: 3px, 3px, 5px black;
+  letter-spacing: 3px;
+  margin-top: 5%;
+  text-align: center;
+}
+
+.myPortfolio{
+  font-family: 'Chewy';font-size: 22px;
+  font-size: 35px;
+  font-weight: bold;
+  text-align: center;
+  text-shadow: 3px, 3px, 5px black ;
+  color: black;
+  font-style: oblique;
+  padding-bottom: 20px;
+  letter-spacing: 0.2em;
+  
+  
+}
+
+.header2{
+  font-style: italic;
+  text-align: center;
+  color: black;
+
+}
+
+.viewmywork a{
+  color: black;
+  text-decoration: none;
+  padding-left: 10px;
+  
+}
+
+.footer{
+  margin-top: 6%;
+  color: black;
+}
+
+.wrap{
+  margin-top: 3%;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  transform: translate(-50%, -50%);
+}
+
+.menu{
+  width: 40px;
+  height: 5px;
+  background-color: black;
+  margin: 6px 0;
+  text-align: right;
+}
+
+.view{
+  background-color: ; 
+  color: black;
+  width: 12%;
+  height: 4rem;
+  margin-top: 2%;
+  /* font-family: 'Chewy';font-size: 22px; */
+
+}
+
+ */
+
+.form{
+  padding: 20px;
+  margin-top: 2%;
+  display: flex;
+  flex-direction: column;
+  margin-left: 35%;
+  height: 10%;
+}
+
+label{
+  display: block;
+}
+
+.form-group{
+  padding-bottom: 15px;
+}
+
+.form input[type="text"], [type="email"], [type="number"]{
+  width: 35%;
+}
+
+.form textarea{
+  width: 35%;
+}
+
+.form input[type="submit"]{
+  background-color: #333;
+  color: white;
+}
+
+.form input[type="submit"]:hover{
+  color: black;
+}
+
+.contact-details{
+  font-style: italic;
+  margin-top: 15%;
+  text-align: center;
+  word-spacing: 1rem;
+  color: black;
+  font-size: 1em;
+  background-color: aliceblue;
+  padding: 5px;
+  border: 8px black solid;
+  
+}
+
+.contact-me-box{
+  width: 30%;
+  margin: auto;
+  margin-bottom: 10%;
+  
+}
